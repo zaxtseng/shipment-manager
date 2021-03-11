@@ -1,10 +1,10 @@
 export default {
   pages: [
     'pages/index/index',
-    'pages/search/search',
-    'pages/send/send',
-    'pages/order/order',
-    'pages/mine/mine'
+    'pages/search/index',
+    'pages/send/index',
+    'pages/order/index',
+    'pages/mine/index'
   ],
   tabBar: {
     list: [{
@@ -15,22 +15,22 @@ export default {
     },{
       'iconPath': 'resource/hotest.png',
       'selectedIconPath': 'resource/hotest_on.png',
-      pagePath: 'pages/search/search',
+      pagePath: 'pages/search/index',
       text: '查单'
     },{
       'iconPath': 'resource/node.png',
       'selectedIconPath': 'resource/node_on.png',
-      pagePath: 'pages/send/send',
+      pagePath: 'pages/send/index',
       text: '发货'
     },{
       'iconPath': 'resource/hotest.png',
       'selectedIconPath': 'resource/hotest_on.png',
-      pagePath: 'pages/order/order',
+      pagePath: 'pages/order/index',
       text: '订单'
     },{
       'iconPath': 'resource/latest.png',
       'selectedIconPath': 'resource/lastest_on.png',
-      pagePath: 'pages/mine/mine',
+      pagePath: 'pages/mine/index',
       text: '我的'
     }],
     'color': '#000',

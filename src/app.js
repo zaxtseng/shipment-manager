@@ -1,5 +1,4 @@
 import { Component } from 'react'
-// import Taro from '@tarojs/taro'
 
 import './app.scss'
 
@@ -10,5 +9,4 @@ class App extends Component {
   }
 }
 
-// Taro.render(<App />, document.getElementById('app'))
 export default App
